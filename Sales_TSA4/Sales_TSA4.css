@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap);
+
+h1{
+    font-family: 'Space Mono', monospace;
+    font-style: italic;
+    margin-top: 135px;
+}
+
+body{
+    background-image: url(feu.jpg);
+    background-size: cover;
+}
+
+img{
+    margin-left: 90px;
+    width: 130px;
+}
+
+h3{
+    font-family: 'Space Mono', monospace;
+    font-style: italic;
+    margin-left: 350px;
+    margin-right: 350px;
+}
