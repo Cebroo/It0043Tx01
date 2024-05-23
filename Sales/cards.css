@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    position: relative;
+    width: 350px;
+    height: 350px;
+    background-image: url(card\ bg.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 5px 6px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.container2{
+    position: absolute;
+    top: 65%;
+    width: 350px;
+    height: 350px;
+    background-image: url(card\ bg.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 5px 6px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.gif{
+    height: 300px;
+    width: 300px;
+}
+
+.card img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+.black{
+    background-color: #4F4F4F;
+    height: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    height: 230px;
+}
+
+.yellow{
+    background-color: #F4D03F;
+    height: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    height: 260px;
+}
+
+
+.yellow .type1{
+    background-color: #F77AFF;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.black .type1{
+    background-color: #808B96;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.type{
+    display: inline;
+    font-size: small;
+}
+
+.type1{
+    display: inline;
+}
+
+.type2{
+    display: inline;
+}
+
+h1{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    font-size: xx-large;
+}
+
+h3{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    font-size: medium;
+}
+
+p{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 200;
+    font-style: normal;
+    font-size: x-small;
+    text-align: center;
+
+}
+
+button{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.buttons .add{
+    display: inline;
+    background-color: green;
+    border-radius: 20px;
+    padding: 10px 10px;
+    border: none;
+}
+
+.buttons .del{
+    display: inline;
+    background-color: red;
+    border-radius: 20px;
+    margin: 10px 5px;
+    padding: 10px 10px;
+    border: none;
+}
