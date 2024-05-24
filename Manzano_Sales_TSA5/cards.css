@@ -253,11 +253,34 @@ button{
     border: none;
     font-size: x-small;
     box-shadow: 3px 4px 4px;
+    transition: 0.5s;
+}
+
+.buttons .add:hover{
+    display: inline;
+    background-color: darkgreen;
+    border-radius: 20px;
+    padding: 10px 10px;
+    border: none;
+    font-size: x-small;
+    box-shadow: 3px 4px 4px;
 }
 
 .buttons .del{
     display: inline;
     background-color: red;
+    border-radius: 20px;
+    margin: 10px 5px;
+    padding: 10px 10px;
+    border: none;
+    font-size: x-small;
+    box-shadow: 3px 4px 4px;
+    transition: 0.5s;
+}
+
+.buttons .del:hover{
+    display: inline;
+    background-color: darkred;
     border-radius: 20px;
     margin: 10px 5px;
     padding: 10px 10px;
