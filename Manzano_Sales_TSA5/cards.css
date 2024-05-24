@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    position: absolute;
+    left: 60px;
+    width: 350px;
+    height: 350px;
+    background-image: url(card\ bg.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 5px 6px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.container2{
+    position: absolute;
+    top: 65%;
+    left: 62px;
+    width: 350px;
+    height: 350px;
+    background-image: url(card\ bg.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 5px 6px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.container3{
+    position: absolute;
+    top: 597px;
+    left: 526px;
+    width: 350px;
+    height: 350px;
+    background-image: url(card\ bg.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 5px 6px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.container4{
+    position: absolute;
+    left: 524px;
+    width: 350px;
+    height: 350px;
+    background-image: url(card\ bg.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 5px 6px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.container5{
+    position: absolute;
+    right: 60px;
+    width: 350px;
+    height: 350px;
+    background-image: url(card\ bg.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 5px 6px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.legif{
+    height: 300px;
+    width: 300px;
+    align-items: center;
+}
+
+.zacgif{
+    height: 300px;
+    width: 300px;
+    align-items: center;
+}
+
+.zamgif{
+    height: 300px;
+    width: 270px;
+    align-items: center;
+}
+
+.xergif{
+    height: 300px;
+    width: 300px;
+    align-items: center;
+}
+
+.yvelgif{
+    height: 300px;
+    width: 300px;
+    align-items: center;
+}
+
+.card img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+}
+
+.black{
+    background-color: #4F4F4F;
+    height: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    height: 243px;
+    box-shadow: 5px 5px 5px;
+    line-height: 1.3;
+}
+
+.blue{
+    background-color: #339FF9;
+    height: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    height: 260px;
+    box-shadow: 5px 5px 5px;
+    line-height: 1.3;
+}
+
+.red{
+    background-color: #fd2828;
+    height: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    height: 260px;
+    box-shadow: 5px 5px 5px;
+    line-height: 1.3;
+}
+
+.white{
+    background-color: #457DAE;
+    height: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    height: 244px;
+    box-shadow: 5px 5px 5px;
+    line-height: 1.3;
+}
+
+.orange{
+    background-color: #D53E05;
+    height: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+    height: 244px;
+    box-shadow: 5px 5px 5px;
+    line-height: 1.3;
+}
+
+.blue .type1{
+    background-color: #F77AFF;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.black .type1{
+    background-color: #808B96;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.red .type1{
+    background-color: #ff0000;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.white .type1{
+    background-color: #F77AFF;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.orange .type1{
+    background-color: #4A3009;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.orange .type2{
+    background-color: #3870CB;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+
+.type{
+    display: inline;
+    font-size: small;
+}
+
+.type1{
+    display: inline;
+}
+
+.type2{
+    display: inline;
+}
+
+h1{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    font-size: x-large;
+}
+
+h3{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    font-size: medium;
+}
+
+p{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 200;
+    font-style: normal;
+    font-size: x-small;
+    text-align: center;
+
+}
+
+button{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.buttons .add{
+    display: inline;
+    background-color: green;
+    border-radius: 20px;
+    padding: 10px 10px;
+    border: none;
+    font-size: x-small;
+    box-shadow: 3px 4px 4px;
+}
+
+.buttons .del{
+    display: inline;
+    background-color: red;
+    border-radius: 20px;
+    margin: 10px 5px;
+    padding: 10px 10px;
+    border: none;
+    font-size: x-small;
+    box-shadow: 3px 4px 4px;
+}
