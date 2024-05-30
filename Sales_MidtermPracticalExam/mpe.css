@@ -1,0 +1,285 @@
+body{
+    background-image: url(bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
+.card{
+    background-color: #FFC000;
+    box-shadow: 5px 5px 6px;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+}
+
+.card2{
+    background-color: #E1C16E;
+    box-shadow: 5px 5px 6px;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+}
+
+.card3{
+    background-color: #F89880;
+    box-shadow: 5px 5px 6px;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+}
+
+.card4{
+    background-color: #C2B280;
+    box-shadow: 5px 5px 6px;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+}
+
+.card5{
+    background-color: #ADD8E6;
+    box-shadow: 5px 5px 6px;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+}
+
+.card6{
+    background-color: #191970;
+    box-shadow: 5px 5px 6px;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+}
+
+.card7{
+    background-color: yellow;
+    box-shadow: 5px 5px 6px;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+}
+
+.card8{
+    background-color: #EADDCA;
+    box-shadow: 5px 5px 6px;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+}
+
+.card9{
+    background-color: #FFB6C1;
+    box-shadow: 5px 5px 6px;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+}
+
+.card10{
+    background-color: #C19A6B;
+    box-shadow: 5px 5px 6px;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+}
+
+.card11{
+    background-color: #800080;
+    box-shadow: 5px 5px 6px;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+}
+
+.card12{
+    background-color: #CC5500;
+    box-shadow: 5px 5px 6px;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 400px;
+}
+
+.card:hover{
+    background-image: url(pokebg.jpg);
+}
+
+.card2:hover{
+    background-image: url(pokebg.jpg);
+}
+
+.card3:hover{
+    background-image: url(pokebg.jpg);
+}
+
+.card4:hover{
+    background-image: url(pokebg.jpg);
+}
+
+.card5:hover{
+    background-image: url(pokebg.jpg);
+}
+
+.card6:hover{
+    background-image: url(pokebg.jpg);
+}
+
+.card7:hover{
+    background-image: url(pokebg.jpg);
+}
+
+.card8:hover{
+    background-image: url(pokebg.jpg);
+}
+
+.card9:hover{
+    background-image: url(pokebg.jpg);
+}
+
+.card10:hover{
+    background-image: url(pokebg.jpg);
+}
+
+.card11:hover{
+    background-image: url(pokebg.jpg);
+}
+
+.card12:hover{
+    background-image: url(pokebg.jpg);
+}
+
+@media (max-width: 950px) {
+    .flex-container {
+
+        .card{
+            background-color: #FFC000;
+            box-shadow: 5px 5px 6px;
+            background-position: center;
+            background-size: cover;
+            height: 400px;
+            width: 400px;
+        }
+        
+        .card2{
+            background-color: #E1C16E;
+            box-shadow: 5px 5px 6px;
+            background-position: center;
+            background-size: cover;
+            height: 400px;
+            width: 400px;
+        }
+        
+        .card3{
+            background-color: #F89880;
+            box-shadow: 5px 5px 6px;
+            background-position: center;
+            background-size: cover;
+            height: 400px;
+            width: 400px;
+        }
+        
+        .card4{
+            background-color: #C2B280;
+            box-shadow: 5px 5px 6px;
+            background-position: center;
+            background-size: cover;
+            height: 400px;
+            width: 400px;
+        }
+        
+        .card5{
+            background-color: #ADD8E6;
+            box-shadow: 5px 5px 6px;
+            background-position: center;
+            background-size: cover;
+            height: 400px;
+            width: 400px;
+        }
+        
+        .card6{
+            background-color: #191970;
+            box-shadow: 5px 5px 6px;
+            background-position: center;
+            background-size: cover;
+            height: 400px;
+            width: 400px;
+        }
+        
+        .card7{
+            background-color: yellow;
+            box-shadow: 5px 5px 6px;
+            background-position: center;
+            background-size: cover;
+            height: 400px;
+            width: 400px;
+        }
+        
+        .card8{
+            background-color: #EADDCA;
+            box-shadow: 5px 5px 6px;
+            background-position: center;
+            background-size: cover;
+            height: 400px;
+            width: 400px;
+        }
+        
+        .card9{
+            background-color: #FFB6C1;
+            box-shadow: 5px 5px 6px;
+            background-position: center;
+            background-size: cover;
+            height: 400px;
+            width: 400px;
+        }
+        
+        .card10{
+            background-color: #C19A6B;
+            box-shadow: 5px 5px 6px;
+            background-position: center;
+            background-size: cover;
+            height: 400px;
+            width: 400px;
+        }
+        
+        .card11{
+            background-color: #800080;
+            box-shadow: 5px 5px 6px;
+            background-position: center;
+            background-size: cover;
+            height: 400px;
+            width: 400px;
+        }
+        
+        .card12{
+            background-color: #CC5500;
+            box-shadow: 5px 5px 6px;
+            background-position: center;
+            background-size: cover;
+            height: 400px;
+            width: 400px;
+        }
+    }
+}
+
+.pokemon{
+    height: 200px;
+    width: 200px;
+}
