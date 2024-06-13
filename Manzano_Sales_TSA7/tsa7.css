@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Anton", sans-serif;
+    transition: 0.5s all ease;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(1. 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 30px;
+    width: 96vw;
+    margin: 0 auto;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: repeat(1. 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 20px;
+    margin: 0 auto;
+    background-color: #BD3944;
+}
+
+.logo{
+    font-size: 40px;
+}
+
+.logo:hover{
+    color: #BD3944;
+}
+
+.active{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+nav{
+    background-color:#000000;
+    height: fit-content;
+    padding: 15px;
+    color: white;
+}
+
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+}
+
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+
+nav a:hover{
+    color: #BD3944;
+    transition-delay: 0.5ms;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+.SeasonImage{
+    width: 500px;
+}
+
+.EsportsImage{
+    width: 1200px;
+}
+
+.SeasonPic{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.EsportsPic{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.News{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.News2{
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.Sage{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.Brim{
+    grid-column: 2;
+    grid-row: 2;
+}
