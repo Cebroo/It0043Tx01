@@ -1,113 +1,138 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Anton", sans-serif;
-    transition: 0.5s all ease;
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Anton", sans-serif;
+  transition: 0.5s all ease;
 }
 
-.container{
-    display: grid;
-    grid-template-columns: repeat(1. 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    gap: 30px;
-    width: 96vw;
-    margin: 0 auto;
+.container {
+  display: grid;
+  grid-template-columns: repeat(1 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  gap: 30px;
+  width: 96vw;
+  margin: 0 auto;
 }
 
-.container2{
-    display: grid;
-    grid-template-columns: repeat(1. 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    gap: 20px;
-    margin: 0 auto;
-    background-color: #BD3944;
+.container2 {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap: 20px;
+  margin: 0 auto;
+  background-color: #bd3944;
 }
 
-.logo{
-    font-size: 40px;
+.logo {
+  font-size: 40px;
 }
 
-.logo:hover{
-    color: #BD3944;
+.logo:hover {
+  color: #bd3944;
 }
 
-.active{
-    text-decoration: underline;
-    text-underline-offset: 10px;
+.active {
+  text-decoration: underline;
+  text-underline-offset: 10px;
 }
 
-nav{
-    background-color:#000000;
-    height: fit-content;
-    padding: 15px;
-    color: white;
+nav {
+  background-color: #000000;
+  height: fit-content;
+  padding: 15px;
+  color: white;
 }
 
-nav .container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+nav .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-nav ul{
-    display: flex;
+nav ul {
+  display: flex;
 }
 
-
-nav a{
-    color: white;
-    text-decoration: none;
-    font-size: x-large;
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: x-large;
 }
 
-nav li{
-    list-style: none;
-    margin-left: 50px;
+nav li {
+  list-style: none;
+  margin-left: 50px;
 }
 
-nav a:hover{
-    color: #BD3944;
-    transition-delay: 0.5ms;
-    text-decoration: underline;
-    text-underline-offset: 10px;
+nav a:hover {
+  color: #bd3944;
+  transition-delay: 0.3ms;
+  text-decoration: underline;
+  text-underline-offset: 10px;
 }
 
-.SeasonImage{
-    width: 500px;
+.SeasonPic {
+  grid-column: 1 / span 2;
+  grid-row: 1;
 }
 
-.EsportsImage{
-    width: 1200px;
+.EsportPic {
+  grid-column: 3;
+  grid-row: 1;
 }
 
-.SeasonPic{
-    grid-column: 2;
-    grid-row: 1;
+.Agent {
+  grid-column: 1 / span 2;
+  grid-row: 2;
+  display: grid;
+  gap: 5px;
 }
 
-.EsportsPic{
-    grid-column: 1;
-    grid-row: 1;
+.News {
+  grid-column: 3;
+  grid-row: 2;
 }
 
-.News{
-    grid-column: 2;
-    grid-row: 2;
+.News1 {
+  grid-column: 2;
+  grid-row: 2;
 }
 
-.News2{
-    grid-column: 2;
-    grid-row: 3;
+.News2 {
+  grid-column: 2;
+  grid-row: 3;
 }
 
-.Sage{
-    grid-column: 1;
-    grid-row: 1;
+.Sage {
+  grid-column: 1;
+  grid-row: 1;
 }
 
-.Brim{
-    grid-column: 2;
-    grid-row: 2;
+.Brim {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.Breach {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.Jett {
+  grid-column: 4;
+  grid-row: 1;
+}
+
+.Phoenix {
+  grid-column: 5;
+  grid-row: 1;
+}
+
+.SeasonImage {
+  width: 1200px;
+}
+
+.EsportsImage {
+  width: 500px;
 }
