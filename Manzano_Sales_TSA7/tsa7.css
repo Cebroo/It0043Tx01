@@ -225,3 +225,34 @@ nav a:hover {
     margin-left: 60px;
   }
 }
+
+@media (max-width: 1210px) {
+  .container2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    background-color: #bd3944;
+    grid-row-gap: 10px;
+  }
+
+  .SeasonPic {
+    grid-column: 1/2;
+    grid-row: 1/1;
+    margin-right: 40px;
+  }
+
+  .EsportsPic {
+    grid-column: 1/2;
+    grid-row: 2/2;
+  }
+
+  .News {
+    grid-column: 1/2;
+    grid-row: 3/3;
+  }
+
+  .Agent {
+    grid-column: 1/2;
+    grid-row: 4/4;
+  }
+}
