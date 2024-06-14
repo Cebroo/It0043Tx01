@@ -185,12 +185,17 @@ nav a:hover {
 }
 
 @media (max-width: 1595px) {
+  .container2 {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 20px;
+    margin: 0 auto;
+    background-color: #bd3944;
+  }
+
   .SeasonPic {
     grid-column: 1 / span 3;
     grid-row: 1;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     background-image: url(header.jpg);
     background-position: center;
     background-size: cover;
@@ -201,29 +206,22 @@ nav a:hover {
   .EsportsPic {
     grid-column: 1;
     grid-row: 2;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     background-image: url(geng.jpg);
     background-position: center;
     background-size: cover;
     width: 500px;
     height: 600px;
-    margin-left: 40px;
+    margin-left: 120px;
   }
 
   .News {
-    grid-column: 2;
-    grid-row: 2;
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
+    margin-right: 70px;
   }
 
   .Agent {
     grid-column: 1 / span 3;
     grid-row: 3;
     display: grid;
-    margin-left: 40px;
+    margin-left: 60px;
   }
 }
