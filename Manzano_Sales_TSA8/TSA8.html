@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="TSA8.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+    <title>TSA8</title>
+  </head>
+
+  <body>
+    <div class="whole">
+      <div class="flex-container">
+        <div class="box" id="one">1</div>
+        <div class="box" id="two">2</div>
+        <div class="box" id="three">3</div>
+      </div>
+
+      <div class="controls">
+        <h3>Flexbox Properties</h3>
+        <button id="reset">Reset Flexbox</button>
+        <label for="gap">Gap</label>
+        <input type="number" id="gap" value="0" />
+
+        <label for="flex-direction" id="f-direction">Flex Direction:</label>
+        <select id="flex-direction">
+          <option value="Row">Row</option>
+          <option value="Column">Column</option>
+        </select>
+
+        <label for="justify" id="j-content">Justify Content:</label>
+        <select id="justify-content">
+          <option value="Start">Start</option>
+          <option value="End">End</option>
+          <option value="Center">Center</option>
+          <option value="Space-Between">Space Between</option>
+          <option value="Space-Around">Space Around</option>
+          <option value="Space-Evenly">Space Evenly</option>
+        </select>
+
+        <label for="align-items" id="a-items">Align Items:</label>
+        <select id="align-items">
+          <option value="Start">Start</option>
+          <option value="Center">Center</option>
+          <option value="End">End</option>
+        </select>
+
+        <h3>Flex Grow</h3>
+        <button id="f-reset">Reset</button>
+        <button id="f-grow">Grow All</button>
+
+        <div class="box-container">
+          <label for="box1Grow">Box 1</label>
+          <input type="number" id="box1Grow" value="0" />
+
+          <label for="box2Grow">Box 2</label>
+          <input type="number" id="box2Grow" value="0" />
+
+          <label for="box3Grow">Box 3</label>
+          <input type="number" id="box3Grow" value="0" />
+        </div>
+      </div>
+    </div>
+    <script src="TSA8.js"></script>
+  </body>
+</html>
